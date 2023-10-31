@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input,Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'testing';
+  ////////////// test 1////////////
+  ////////////////////////////////
+  // this wraps the logic for the same component can save the user information
+  // inputUser: User= {
+  //   name : ''
+  // };
+  // listUser : User[] = [];
+  // showData() {
+  //   this.listUser.push({...this.inputUser});
+  //   console.log(this.listUser)
+  // };
 }
